@@ -1,0 +1,90 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: whitesmoke;
+}
+
+/*sending class main-grp to the center of the page*/
+.vumu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 10px 30px grey;
+}
+
+/*sizing of the form*/
+.vumu {
+	width: 500px;
+	height: 450px;
+}
+
+/*other properties of the forms*/
+.vumu {
+	background-color: whitesmoke;
+	text-align: center;
+	padding: 50px;
+	width: 280px;
+	height: 400px;
+	border-top-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+}
+
+/*title design*/
+.title {
+	font-size: 25px;
+}
+
+/*properties of all input boxes*/
+input {
+	width: 200px;
+	height: 27px;
+	text-align: center;
+	border: 1px solid grey;
+	border-radius: 2.5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*properties of button within class vumu*/
+.vumu button {
+	margin-top: 50px;
+	margin-right: 32px;
+	background-color: orange;
+	color: black;
+	width: 100px;
+	height: 30px;
+	border: 1px solid orange;
+	border-radius: 5px;
+	display: inline;
+}
+
+/*labels*/
+.vumu label {
+	margin-right: 12px;
+}
+
+/*paragraph and anchor tags*/
+p {
+	font-size: 13px;
+}
+
+a {
+	font-size: 13px;
+	text-decoration: none;
+	color: orange;
+}
+
+a:hover {
+	color: white;
+	background-color: orange;
+	padding: 7px;
+}
+
+button:hover {
+	color: white;
+	background-color: darkorange;
+}
